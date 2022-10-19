@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <title>Tarea1</title>
+    <style>
+        .boton {
+            padding:20px;
+            background:hwb(133 13% 69%);
+            color:#ffffff;
+            font:bold 10px/10px verdana;
+            width:100px;
+            cursor:pointer;
+            cursor:hand;
+            text-align:center;
+        }        
+        #boton1 { 
+            position: absolute;           
+            left: 5%;            
+        }        
+        #boton2 {
+            position:absolute;
+            left: 90%;            
+        }
+        
+    </style>
+</head>
+<body>
+ 
+        <section> 
+            <h1 align="center">Desarrollar mediante HTML una galería de imágenes</h1>    
+            <a href="Pagina4.html" input id="boton1" class="boton" type="button" value="Anterior" >Anterior</a>      
+            <a href="index.html" input id="boton2" class="boton" type="button" value="Siguiente" >Siguiente</a>               
+        </section>
+
+        <section>
+            <nav class="menu">     
+                <div align="center">
+                    <iframe width="500" height="500" src="imagenes/Homero.png" frameborder="10px">            
+                    </iframe>
+                </div>
+            </nav>
+        </section>
+</body>
+<footer>
+    <div class="row botonera">
+        <div class="col-xs-12" align="center">
+            <a href="index.html"><img src="imagenes/iconoprimero.png" alt="Primera Pagina "></a>
+            <a href="Pagina5.html"><img src="imagenes/iconosiguiente.png" alt="Siguiente"></a>
+            <a href="Pagina3.html"><img src="imagenes/iconoanterior.png" alt="Anterior"></a>
+            <a href="Pagina5.html"><img src="imagenes/iconultimo.png" alt="Última Página"></a>
+        </div>
+    </div>    
+</footer>
+     
+</html>
